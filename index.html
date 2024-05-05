@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Portfolio</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hello I'm<br /><span class="home__title-color">Huma Parween</span
+            ><br />
+            Web Developer
+          </h1>
+
+          <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/thehuma-parween/"
+            class="home__social-icon">
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Huma-03" class="home__social-icon"
+            ><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image
+                class="home__blob-img"
+                x="30"
+                y="0"
+                href="img/profile.jpeg"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="img/about.jpeg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'm Huma Parween</h2>
+            <p class="about__text">
+              I am a web Developer with a passion for exploration and a solid
+              drive to take on challenges. With an open and motivated mindset,
+              Iseek out new opportunities to push the boundaries of my skills
+              and knowledge.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Professional Skills</h2>
+            <p class="skills__text">
+              I possess a good foundation in all of these skills. Please do not
+              hesitate to reach out to me if you require any further asistance.
+            </p>
+  
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-css3-alt skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-bootstrap skills__icon"></i>
+                <span class="skills__name">Boostrap</span>
+              </div>
+              <div class="skills__bar skills__boostrap"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-js skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-git-alt skills__icon">/</i>
+                <i class="fa-brands fa-github skills__icon"></i>
+                <span class="skills__name">Git/GitHub</span>
+              </div>
+              <div class="skills__bar skills__git"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-solid fa-database skills__icon"></i>
+                <span class="skills__name">SQL</span>
+              </div>
+              <div class="skills__bar skills__sql"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-python skills__icon"></i>
+                <span class="skills__name">Python</span>
+              </div>
+              <div class="skills__bar skills__py"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img src="img/skills.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== Project =====-->
+      <section class="project section" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project__container bd-grid">
+          <div>
+            <h3 class="project_name">Crypto-currency Market data</h3>
+            <p style="margin-bottom: 52px; color: grey;">
+              Developed a responsive crypto-currency market data website
+              using HTML, CSS, and Javascript. The website shows market data of crypto currency in list view and grid view.
+            </p>
+            <a
+              href="https://github.com/Huma-03/Cryptocurrency-MarketData"
+              class="project__img"
+            >
+              <img src="img/project1.png" alt="" />
+            </a>
+          </div>
+          <div>
+            <h3 class="project_name">Blinkit-clone</h3>
+            <p style="color: grey;">
+              Developed the frontend of a groceries delivery
+              website(Blinkit-clone) like Blinkit, designed the responsible
+              frontend web page and also added Register/login functionality
+              using HTML, CSS and Javascript to ensure seamless access from
+              desktop and mobile services
+            </p>
+            <a
+              href="https://github.com/Huma-03/Blinkit-clone"
+              class="project__img"
+            >
+              <img src="img/project2.png" alt="" />
+            </a>
+          </div>
+          <div>
+            <h3 class="project_name">IMDB Movie App</h3>
+            <p style="margin-bottom: 53px; color: grey;">
+              Developed an IMDB Movie search Website as part of web development
+              Training. The Website allows users to search movies and view
+              details such as rating, review and cast information. Implemented
+              using HTML,CSS, Javascript and API Integration
+            </p>
+            <a
+              href="https://github.com/Huma-03/IMDB-Movie-APP"
+              class="project__img"
+            >
+              <img src="img/project3.png" alt="" />
+            </a>
+          </div>
+          <div>
+            <h3 class="project_name">Movie-seat-Booking</h3>
+            <p style="color: grey;">
+              Developed a responsive movie seat booking website
+              using HTML, CSS, and Javascript. The website allows users to
+              select a movie/price, choose their seats from a seating layout,
+              and proceed to checkout. Implemented interactive features such as
+              seat selection, seat availability updates, and booking
+              confirmation [save seats,movie and price to local storage so that
+              Ui is still populated on refresh the page].
+            </p>
+
+            <a
+              href="https://github.com/Huma-03/Movie-seat-Booking"
+              class="project__img"
+            >
+              <img src="img/project4.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <div class="contact__container bd-grid">
+          <div><i class="fa-regular fa-envelope skills__icon"></i><b>Email</b>
+            <p>humaparween2000@gmail.com</p>
+          </div>
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <input type="text" placeholder="Subject" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+              placeholder="Your Message"
+            ></textarea>
+            <input
+              type="button"
+              value="send Message"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Made by Huma</p>
+      <p class="footer__copy">&#169; All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
